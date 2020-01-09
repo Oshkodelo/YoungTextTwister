@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5099FF"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Congratulations! You have beaten all 3 levels. Challenge your friends to play. Set a timer and see who can score more points within that time. A full level is worth 11600 points."
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Winner!!"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try timing yourself!"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:fontFamily="cursive"
+        android:onClick="toFirst"
+        android:text="Play Again"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:src="@drawable/texttwist"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextTwister"
+        android:fontFamily="cursive"
+        android:textSize="45sp"
+        android:textColor="#FFFFFF"
+        android:background="#000000"/>
+
+</LinearLayout>
